@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jun 02 13:58:34 EEST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>169 seconds (169319 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='pragmaticHomeworkTest.Orders()'><b>Orders</b><br>Test class: pragmaticHomeworkTest</td>
+<td></td>
+<td>5</td>
+<td>pragmaticHomeworkTest@b97c004</td></tr>
+<tr>
+<td title='seleniumTest.abvTest()'><b>abvTest</b><br>Test class: seleniumTest</td>
+<td></td>
+<td>8</td>
+<td>seleniumTest@32e6e9c3</td></tr>
+<tr>
+<td title='actionsQuizTest.actionQuiz()'><b>actionQuiz</b><br>Test class: actionsQuizTest</td>
+<td></td>
+<td>3</td>
+<td>actionsQuizTest@39fb3ab6</td></tr>
+<tr>
+<td title='webDriverMethodsTest.alerts()'><b>alerts</b><br>Test class: webDriverMethodsTest</td>
+<td></td>
+<td>4</td>
+<td>webDriverMethodsTest@6574b225</td></tr>
+<tr>
+<td title='seleniumTest.cypressTest()'><b>cypressTest</b><br>Test class: seleniumTest</td>
+<td></td>
+<td>7</td>
+<td>seleniumTest@32e6e9c3</td></tr>
+<tr>
+<td title='seleniumFirstTest.findingElement()'><b>findingElement</b><br>Test class: seleniumFirstTest</td>
+<td></td>
+<td>7</td>
+<td>seleniumFirstTest@4590c9c3</td></tr>
+<tr>
+<td title='ultimateQaTest.findingElements()'><b>findingElements</b><br>Test class: ultimateQaTest</td>
+<td></td>
+<td>10</td>
+<td>ultimateQaTest@5056dfcb</td></tr>
+<tr>
+<td title='helloSeleniumTest.firstTest()'><b>firstTest</b><br>Test class: helloSeleniumTest</td>
+<td></td>
+<td>6</td>
+<td>helloSeleniumTest@3c09711b</td></tr>
+<tr>
+<td title='framesTest.frames()'><b>frames</b><br>Test class: framesTest</td>
+<td></td>
+<td>1</td>
+<td>framesTest@7946e1f4</td></tr>
+<tr>
+<td title='actionsQuizTest.getCssValue()'><b>getCssValue</b><br>Test class: actionsQuizTest</td>
+<td></td>
+<td>3</td>
+<td>actionsQuizTest@39fb3ab6</td></tr>
+<tr>
+<td title='pragmaticHomeworkTest.homeWork()'><b>homeWork</b><br>Test class: pragmaticHomeworkTest</td>
+<td></td>
+<td>3</td>
+<td>pragmaticHomeworkTest@b97c004</td></tr>
+<tr>
+<td title='actionsQuizTest.hover()'><b>hover</b><br>Test class: actionsQuizTest</td>
+<td></td>
+<td>2</td>
+<td>actionsQuizTest@39fb3ab6</td></tr>
+<tr>
+<td title='actionsQuizTest.keyPresses()'><b>keyPresses</b><br>Test class: actionsQuizTest</td>
+<td></td>
+<td>4</td>
+<td>actionsQuizTest@39fb3ab6</td></tr>
+<tr>
+<td title='locatingElementsTest.locatingElements()'><b>locatingElements</b><br>Test class: locatingElementsTest</td>
+<td></td>
+<td>3</td>
+<td>locatingElementsTest@5cc7c2a6</td></tr>
+<tr>
+<td title='examTest.locatorExam()'><b>locatorExam</b><br>Test class: examTest</td>
+<td></td>
+<td>9</td>
+<td>examTest@6276ae34</td></tr>
+<tr>
+<td title='actionsQuizTest.rightClick()'><b>rightClick</b><br>Test class: actionsQuizTest</td>
+<td></td>
+<td>3</td>
+<td>actionsQuizTest@39fb3ab6</td></tr>
+<tr>
+<td title='seleniumTest.w3SchoolTest()'><b>w3SchoolTest</b><br>Test class: seleniumTest</td>
+<td></td>
+<td>7</td>
+<td>seleniumTest@32e6e9c3</td></tr>
+<tr>
+<td title='webDriverMethodsTest.windowFrames()'><b>windowFrames</b><br>Test class: webDriverMethodsTest</td>
+<td></td>
+<td>4</td>
+<td>webDriverMethodsTest@6574b225</td></tr>
+<tr>
+<td title='pragmaticHomeworkTest.yourDreamCar()'><b>yourDreamCar</b><br>Test class: pragmaticHomeworkTest</td>
+<td></td>
+<td>1</td>
+<td>pragmaticHomeworkTest@b97c004</td></tr>
+</table><p>
+</body>
+</html>

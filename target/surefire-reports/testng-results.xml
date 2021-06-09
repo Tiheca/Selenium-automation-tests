@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="19" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="169319" started-at="2021-06-02T10:58:34Z" finished-at="2021-06-02T11:01:24Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="169319" started-at="2021-06-02T10:58:34Z" finished-at="2021-06-02T11:01:24Z">
+      <class name="seleniumTest">
+        <test-method status="PASS" signature="setupClass()[pri:0, instance:seleniumTest@32e6e9c3]" name="setupClass" is-config="true" duration-ms="31" started-at="2021-06-02T11:00:29Z" finished-at="2021-06-02T11:00:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method status="PASS" signature="abvTest()[pri:0, instance:seleniumTest@32e6e9c3]" name="abvTest" duration-ms="8604" started-at="2021-06-02T11:00:29Z" finished-at="2021-06-02T11:00:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abvTest -->
+        <test-method status="PASS" signature="setupClass()[pri:0, instance:seleniumTest@32e6e9c3]" name="setupClass" is-config="true" duration-ms="47" started-at="2021-06-02T11:00:38Z" finished-at="2021-06-02T11:00:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method status="PASS" signature="cypressTest()[pri:0, instance:seleniumTest@32e6e9c3]" name="cypressTest" duration-ms="7859" started-at="2021-06-02T11:00:38Z" finished-at="2021-06-02T11:00:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cypressTest -->
+        <test-method status="PASS" signature="setupClass()[pri:0, instance:seleniumTest@32e6e9c3]" name="setupClass" is-config="true" duration-ms="15" started-at="2021-06-02T11:00:46Z" finished-at="2021-06-02T11:00:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method status="PASS" signature="w3SchoolTest()[pri:0, instance:seleniumTest@32e6e9c3]" name="w3SchoolTest" duration-ms="7976" started-at="2021-06-02T11:00:46Z" finished-at="2021-06-02T11:00:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- w3SchoolTest -->
+      </class> <!-- seleniumTest -->
+      <class name="examTest">
+        <test-method status="PASS" signature="locatorExam()[pri:0, instance:examTest@6276ae34]" name="locatorExam" duration-ms="9540" started-at="2021-06-02T10:59:27Z" finished-at="2021-06-02T10:59:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locatorExam -->
+      </class> <!-- examTest -->
+      <class name="webDriverMethodsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:webDriverMethodsTest@6574b225]" name="setUp" is-config="true" duration-ms="1532" started-at="2021-06-02T11:01:04Z" finished-at="2021-06-02T11:01:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="alerts()[pri:0, instance:webDriverMethodsTest@6574b225]" name="alerts" duration-ms="4499" started-at="2021-06-02T11:01:06Z" finished-at="2021-06-02T11:01:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alerts -->
+        <test-method status="PASS" signature="tearsDown()[pri:0, instance:webDriverMethodsTest@6574b225]" name="tearsDown" is-config="true" duration-ms="3878" started-at="2021-06-02T11:01:10Z" finished-at="2021-06-02T11:01:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearsDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:webDriverMethodsTest@6574b225]" name="setUp" is-config="true" duration-ms="1595" started-at="2021-06-02T11:01:14Z" finished-at="2021-06-02T11:01:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="windowFrames()[pri:0, instance:webDriverMethodsTest@6574b225]" name="windowFrames" duration-ms="4110" started-at="2021-06-02T11:01:16Z" finished-at="2021-06-02T11:01:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windowFrames -->
+        <test-method status="PASS" signature="tearsDown()[pri:0, instance:webDriverMethodsTest@6574b225]" name="tearsDown" is-config="true" duration-ms="3881" started-at="2021-06-02T11:01:20Z" finished-at="2021-06-02T11:01:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearsDown -->
+      </class> <!-- webDriverMethodsTest -->
+      <class name="framesTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:framesTest@7946e1f4]" name="setUp" is-config="true" duration-ms="2857" started-at="2021-06-02T10:59:36Z" finished-at="2021-06-02T10:59:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="frames()[pri:0, instance:framesTest@7946e1f4]" name="frames" duration-ms="1591" started-at="2021-06-02T10:59:39Z" finished-at="2021-06-02T10:59:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- frames -->
+        <test-method status="PASS" signature="tearsDown()[pri:0, instance:framesTest@7946e1f4]" name="tearsDown" is-config="true" duration-ms="789" started-at="2021-06-02T10:59:41Z" finished-at="2021-06-02T10:59:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearsDown -->
+      </class> <!-- framesTest -->
+      <class name="seleniumFirstTest">
+        <test-method status="PASS" signature="findingElement()[pri:0, instance:seleniumFirstTest@4590c9c3]" name="findingElement" duration-ms="7480" started-at="2021-06-02T11:00:22Z" finished-at="2021-06-02T11:00:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findingElement -->
+      </class> <!-- seleniumFirstTest -->
+      <class name="actionsQuizTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:actionsQuizTest@39fb3ab6]" name="setUp" is-config="true" duration-ms="3289" started-at="2021-06-02T10:58:34Z" finished-at="2021-06-02T10:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="actionQuiz()[pri:0, instance:actionsQuizTest@39fb3ab6]" name="actionQuiz" duration-ms="3469" started-at="2021-06-02T10:58:38Z" finished-at="2021-06-02T10:58:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actionQuiz -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:actionsQuizTest@39fb3ab6]" name="tearDown" is-config="true" duration-ms="5026" started-at="2021-06-02T10:58:41Z" finished-at="2021-06-02T10:58:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:actionsQuizTest@39fb3ab6]" name="setUp" is-config="true" duration-ms="1538" started-at="2021-06-02T10:58:46Z" finished-at="2021-06-02T10:58:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getCssValue()[pri:0, instance:actionsQuizTest@39fb3ab6]" name="getCssValue" duration-ms="3678" started-at="2021-06-02T10:58:48Z" finished-at="2021-06-02T10:58:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCssValue -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:actionsQuizTest@39fb3ab6]" name="tearDown" is-config="true" duration-ms="5030" started-at="2021-06-02T10:58:51Z" finished-at="2021-06-02T10:58:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:actionsQuizTest@39fb3ab6]" name="setUp" is-config="true" duration-ms="1555" started-at="2021-06-02T10:58:56Z" finished-at="2021-06-02T10:58:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="hover()[pri:0, instance:actionsQuizTest@39fb3ab6]" name="hover" duration-ms="2324" started-at="2021-06-02T10:58:58Z" finished-at="2021-06-02T10:59:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hover -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:actionsQuizTest@39fb3ab6]" name="tearDown" is-config="true" duration-ms="4789" started-at="2021-06-02T10:59:00Z" finished-at="2021-06-02T10:59:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:actionsQuizTest@39fb3ab6]" name="setUp" is-config="true" duration-ms="1571" started-at="2021-06-02T10:59:05Z" finished-at="2021-06-02T10:59:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="keyPresses()[pri:0, instance:actionsQuizTest@39fb3ab6]" name="keyPresses" duration-ms="4857" started-at="2021-06-02T10:59:07Z" finished-at="2021-06-02T10:59:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- keyPresses -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:actionsQuizTest@39fb3ab6]" name="tearDown" is-config="true" duration-ms="5300" started-at="2021-06-02T10:59:11Z" finished-at="2021-06-02T10:59:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:actionsQuizTest@39fb3ab6]" name="setUp" is-config="true" duration-ms="1683" started-at="2021-06-02T10:59:17Z" finished-at="2021-06-02T10:59:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="rightClick()[pri:0, instance:actionsQuizTest@39fb3ab6]" name="rightClick" duration-ms="3020" started-at="2021-06-02T10:59:18Z" finished-at="2021-06-02T10:59:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rightClick -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:actionsQuizTest@39fb3ab6]" name="tearDown" is-config="true" duration-ms="5144" started-at="2021-06-02T10:59:21Z" finished-at="2021-06-02T10:59:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- actionsQuizTest -->
+      <class name="pragmaticHomeworkTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pragmaticHomeworkTest@b97c004]" name="setUp" is-config="true" duration-ms="1725" started-at="2021-06-02T10:59:54Z" finished-at="2021-06-02T10:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Orders()[pri:0, instance:pragmaticHomeworkTest@b97c004]" name="Orders" duration-ms="5076" started-at="2021-06-02T10:59:55Z" finished-at="2021-06-02T11:00:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Orders -->
+        <test-method status="PASS" signature="tearsDown()[pri:0, instance:pragmaticHomeworkTest@b97c004]" name="tearsDown" is-config="true" duration-ms="4496" started-at="2021-06-02T11:00:00Z" finished-at="2021-06-02T11:00:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearsDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pragmaticHomeworkTest@b97c004]" name="setUp" is-config="true" duration-ms="1749" started-at="2021-06-02T11:00:05Z" finished-at="2021-06-02T11:00:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homeWork()[pri:0, instance:pragmaticHomeworkTest@b97c004]" name="homeWork" duration-ms="3871" started-at="2021-06-02T11:00:07Z" finished-at="2021-06-02T11:00:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeWork -->
+        <test-method status="PASS" signature="tearsDown()[pri:0, instance:pragmaticHomeworkTest@b97c004]" name="tearsDown" is-config="true" duration-ms="3927" started-at="2021-06-02T11:00:10Z" finished-at="2021-06-02T11:00:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearsDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:pragmaticHomeworkTest@b97c004]" name="setUp" is-config="true" duration-ms="1871" started-at="2021-06-02T11:00:14Z" finished-at="2021-06-02T11:00:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="yourDreamCar()[pri:0, instance:pragmaticHomeworkTest@b97c004]" name="yourDreamCar" duration-ms="1668" started-at="2021-06-02T11:00:16Z" finished-at="2021-06-02T11:00:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yourDreamCar -->
+        <test-method status="PASS" signature="tearsDown()[pri:0, instance:pragmaticHomeworkTest@b97c004]" name="tearsDown" is-config="true" duration-ms="3863" started-at="2021-06-02T11:00:18Z" finished-at="2021-06-02T11:00:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearsDown -->
+      </class> <!-- pragmaticHomeworkTest -->
+      <class name="ultimateQaTest">
+        <test-method status="PASS" signature="findingElements()[pri:0, instance:ultimateQaTest@5056dfcb]" name="findingElements" duration-ms="10218" started-at="2021-06-02T11:00:54Z" finished-at="2021-06-02T11:01:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findingElements -->
+      </class> <!-- ultimateQaTest -->
+      <class name="locatingElementsTest">
+        <test-method status="PASS" signature="locatingElements()[pri:0, instance:locatingElementsTest@5cc7c2a6]" name="locatingElements" duration-ms="3992" started-at="2021-06-02T10:59:50Z" finished-at="2021-06-02T10:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locatingElements -->
+      </class> <!-- locatingElementsTest -->
+      <class name="helloSeleniumTest">
+        <test-method status="PASS" signature="setupClass()[pri:0, instance:helloSeleniumTest@3c09711b]" name="setupClass" is-config="true" duration-ms="1858" started-at="2021-06-02T10:59:41Z" finished-at="2021-06-02T10:59:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:helloSeleniumTest@3c09711b]" name="firstTest" duration-ms="6414" started-at="2021-06-02T10:59:43Z" finished-at="2021-06-02T10:59:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+      </class> <!-- helloSeleniumTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
